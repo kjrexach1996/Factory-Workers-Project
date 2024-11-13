@@ -21,12 +21,27 @@
     <ClCompile Include="Employee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ProductionWorker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShiftSupervisor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamLeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Employee.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Production Worker.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShiftSupervisor.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamLeader.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
