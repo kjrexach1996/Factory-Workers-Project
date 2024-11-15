@@ -31,6 +31,7 @@ void ProductionWorker::setHourlyRate(double rate)
 
 void ProductionWorker::print()
 {
+	cout << "Production Worker" << endl;
 	Employee::print();
 	cout << "Shift: " << getShift() << endl;
 	cout << "Hourly Pay Rate: $" << fixed << setprecision(2) << getHourlyRate() << endl;

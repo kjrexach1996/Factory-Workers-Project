@@ -27,6 +27,7 @@ void ShiftSupervisor::setAnnualBonus(double bonus)
 
 void ShiftSupervisor::print()
 {
+	cout << "Shift Supervisor" << endl;
 	Employee::print();
 	cout << "Annual Salary: $" << getSalary() << endl;
 	cout << "Annual Bonus: $" << fixed << setprecision(2) << getAnnualBonus() << endl;

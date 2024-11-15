@@ -36,6 +36,7 @@ void TeamLeader::setAttHours(int hours)
 
 void TeamLeader::print()
 {
+	cout << "Team Leader" << endl;
 	ProductionWorker::print();
 	cout << "Monthly Bonus: $" << getMonthlyBonus() << endl;
 	cout << "Required Training Hours: " << getReqHours() << endl;

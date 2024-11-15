@@ -1,5 +1,6 @@
-// Factory Workers Project.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Factory Workers Project.cpp - This file acts as the testing file for the base class Employee
+// and its derived classes ProductionWorker, ShiftSupervisor, and TeamLeader. All member functions
+// and variables are used and accessed in each class' implementation file.
 
 #include <iostream>
 #include "TeamLeader.h"
@@ -7,6 +8,7 @@
 
 int main()
 {
+    //Testing for Employee object.
     Employee myEmp;
     Employee yourEmp("John Smith", "246810", "01/01/2024");
     myEmp.print();
@@ -14,34 +16,30 @@ int main()
     yourEmp.print();
     cout << endl;
 
+    //Testing for ProductionWorker object.
     ProductionWorker myWorker;
     ProductionWorker Paul("Paul Jones", "12345", "10/28/2024", 1, 20.25);
     ProductionWorker Harriet("Harriet Smith", "54321", "6/15/2024", 2, 25.50);
-    cout << "Production Worker " << endl;
     myWorker.print();
     cout << endl;
-    cout << "Production Worker " << endl;
     Paul.print();
     cout << endl;
-    cout << "Production Worker " << endl;
     Harriet.print();
     cout << endl;
 
+    //Testing for ShiftSupervisor object.
     ShiftSupervisor mySupervisor;
     ShiftSupervisor Elmer("Elmer Velasquez", "100325", "1/17/2024", 70000, 1000);
-    cout << "Shift Supervisor " << endl;
     mySupervisor.print();
     cout << endl;
-    cout << "Shift Supervisor " << endl;
     Elmer.print();
     cout << endl;
 
+    //Testing for TeamLeader object.
     TeamLeader myLeader;
     TeamLeader Mike("Mike Rogers", "64327", "2/7/2024", 2, 25.50, 150, 20, 10);
-    cout << "Team Leader" << endl;
     myLeader.print();
     cout << endl;
-    cout << "Team Leader" << endl;
     Mike.print();
     cout << endl;
 }
